@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Music Landing Page</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background: #fff;
+    margin: 20px;
+    color: #333;
+  }
+
+  .container {
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  .intro {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #cc0000;
+  }
+
+  .features {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+  }
+
+  .feature-item {
+    text-align: center;
+    max-width: 150px;
+  }
+
+  .feature-icon {
+    background: #f2f2f2;
+    border-radius: 50%;
+    font-size: 30px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    margin: auto;
+    color: #333;
+  }
+
+  .feature-title {
+    margin-top: 10px;
+    font-weight: 700;
+  }
+
+  .feature-desc {
+    font-size: 12px;
+    color: #777;
+    margin-top: 5px;
+  }
+
+  .section-title {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #cc0000;
+  }
+
+  .guests {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+  }
+
+  .guest-card {
+    width: 250px;
+    background: #fafafa;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px #ccc;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .guest-photo {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+  }
+
+  .guest-name {
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+  }
+
+  .guest-desc {
+    font-size: 13px;
+    color: #666;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+
+  .btn {
+    background: #cc0000;
+    color: #fff;
+    padding: 7px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+  .btn:hover {
+    background: #aa0000;
+  }
+
+  .new-section {
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  .new-title {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+    color:#cc0000;
+  }
+
+  .albums {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .album-card {
+    width: 190px;
+    background: #fafafa;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px #ccc;
+    border-radius: 6px;
+    overflow: hidden;
+    text-align: center;
+  }
+
+  .album-photo {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+
+  .album-title {
+    font-weight: 600;
+    margin-top: 10px;
+  }
+
+  .album-artist {
+    font-size: 13px;
+    padding-bottom: 10px;
+    color: #555;
+  }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+  <div class="intro">Get ready for seamless online music</div>
+  <div class="features">
+    <div class="feature-item">
+      <div class="feature-icon">🎵</div>
+      <div class="feature-title">Offline mode</div>
+      <div class="feature-desc">Save and listen offline</div>
+    </div>
+    <div class="feature-item">
+      <div class="feature-icon">🎧</div>
+      <div class="feature-title">High quality audio</div>
+      <div class="feature-desc">Enjoy the best experience</div>
+    </div>
+    <div class="feature-item">
+      <div class="feature-icon">🕒</div>
+      <div class="feature-title">No ads</div>
+      <div class="feature-desc">Nonstop music</div>
+    </div>
+    <div class="feature-item">
+      <div class="feature-icon">⏩</div>
+      <div class="feature-title">Unlimited skips</div>
+      <div class="feature-desc">Skip any track</div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="section-title">Featured Guests</div>
+  <div class="guests">
+    <div class="guest-card">
+      <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Megan Walsh" class="guest-photo" />
+      <div class="guest-name">Megan Walsh</div>
+      <div class="guest-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec, laoreet Lorem ipsum dolor.</div>
+      <a href="#" class="btn">More Info</a>
+    </div>
+    <div class="guest-card">
+      <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Brooke Kugle" class="guest-photo" />
+      <div class="guest-name">Brooke Kugle</div>
+      <div class="guest-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec, laoreet Lorem ipsum dolor.</div>
+      <a href="#" class="btn">More Info</a>
+    </div>
+    <div class="guest-card">
+      <img src="https://randomuser.me/api/portraits/men/85.jpg" alt="Philip Martin" class="guest-photo" />
+      <div class="guest-name">Philip Martin</div>
+      <div class="guest-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec, laoreet Lorem ipsum dolor.</div>
+      <a href="#" class="btn">More Info</a>
+    </div>
+  </div>
+</div>
+
+<div class="container new-section">
+  <div class="new-title">BUY WHAT'S NEW</div>
+  <div class="albums">
+    <div class="album-card">
+      <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=400&q=80" alt="Garage Band" class="album-photo" />
+      <div class="album-title">Garage Band</div>
+      <div class="album-artist">Kelly Watts</div>
+    </div>
+    <div class="album-card">
+      <img src="https://images.unsplash.com/photo-1509395176047-4a66953fd231?auto=format&fit=crop&w=400&q=80" alt="Garage Band" class="album-photo" />
+      <div class="album-title">Garage Band</div>
+      <div class="album-artist">Brody Simpson</div>
+    </div>
+    <div class="album-card">
+      <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=400&q=80" alt="Garage Band" class="album-photo" />
+      <div class="album-title">Garage Band</div>
+      <div class="album-artist">Brody Watts</div>
+    </div>
+    <div class="album-card">
+      <img src="https://images.unsplash.com/photo-1462331940025-496dfbfc7564?auto=format&fit=crop&w=400&q=80" alt="Garage Band" class="album-photo" />
+      <div class="album-title">Garage Band</div>
+      <div class="album-artist">Kelly Watts</div>
+    </div>
+    <div class="album-card">
+      <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=400&q=80" alt="Garage Band" class="album-photo" />
+      <div class="album-title">Garage Band</div>
+      <div class="album-artist">Brody Simpson</div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
